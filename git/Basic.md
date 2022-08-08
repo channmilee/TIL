@@ -41,6 +41,7 @@
    - 삭제
      - git remote rm origin
 2. 원격 저장소에 업로드
+   - git add . 
    - 커밋 생성
    -  git push
      - git push origin master

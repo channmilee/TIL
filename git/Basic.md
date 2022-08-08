@@ -44,4 +44,4 @@
    - git add . 
    - 커밋 생성
    -  git push
-     - git push origin master
+      - git push origin master

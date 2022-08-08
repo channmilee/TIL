@@ -30,17 +30,17 @@
    ex) git commit -m '변경 사항'
 5. git log -- oneline
 
-md 변경하면 저장하기
+**md 변경하면 저장하기**
 
 ## **Github**
 1. git remote 
-   1) 등록
-   - git remote add origin 주소
-   2) 조회
-   - git remote -v
-   3) 삭제
-   - git remote rm origin
+   - 등록
+     - git remote add origin 주소
+   - 조회
+     - git remote -v
+   - 삭제
+     - git remote rm origin
 2. 원격 저장소에 업로드
-   1) 커밋 생성
-   2) git push
-   - git push origin master
+   - 커밋 생성
+   -  git push
+     - git push origin master

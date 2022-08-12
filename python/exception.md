@@ -1,19 +1,15 @@
 ### 오류 처리 문법
 ```python
-**try:**
-
+try:
 실행한 명령
 
-**except**  예외 as 변수 :
-
+except  예외 as 변수 :
 오류 처리문
 
-**else:**
-
+else:
 예외가 발생하지 않을 때의 처리
 
-**finally:**
-
+finally:
 예외 발생 여부와 무관하게 반드시 실행해야 할 명령
 
 # 파일 close()는 주로 이 위치에 있음
@@ -22,8 +18,8 @@
 
 [예외처리 참고](https://docs.python.org/ko/3/library/exceptions.html)
 
-
-##### 예시
+-----
+#### 예시
 ```python
 def division(a,b):
 

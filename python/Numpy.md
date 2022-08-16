@@ -14,6 +14,11 @@ a2 = np.array([0.5,1,0.8])
 a3 = np.array([1,2,3],[4,5,6],[7,8,9])
 # seq_data를 받아 배열 객체 생성
 
+1-1. 난수 배열 생성
+r1 = np.random.rand()
+r2 = np.random.randint(1, 30)
+# 범위에 해당하는 정수 난수 배열 생성
+
 2. 데이터 타입 확인하기
 a1.dtype
 a2.dtype
@@ -41,7 +46,9 @@ np.eye(3)
 - 배열의 형태가 같아야 함 = ndarray.shape의 결과가 같아야 함
 
 A = np.arange([0,1,2,3]).reshape(2,2)
-B = np.arange([3,2,1,0]).shape(2,2)
+B = np.arange([3,2,1,0]).reshape(2,2)
+
+>> sum(), mean(), std(), var(), min(), max(), cumsum(), cumprod()
 
 1) 행렬 곱
 A.dot(B)
